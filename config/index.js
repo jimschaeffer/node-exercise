@@ -9,7 +9,7 @@ if (!envFound) {
 
 // exports env variables for use
 export default {
-  mysql: {
+  mysql2: {
     host: process.env.DB_HOST,
     user: process.env.DB_USER,
     password: process.env.DB_PASS,

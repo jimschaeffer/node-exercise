@@ -3,6 +3,7 @@ import morgan from "morgan";
 import cors from "cors";
 import apiRouter from "./routes";
 import config from "./config";
+import { join } from "path";
 import { errorHandler } from "./middlewares/errorHandler";
 
 const app = express();
